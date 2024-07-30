@@ -374,6 +374,53 @@ select, input[type="text"]{
 }
 /* BMI calculate section styles end here */
 
+/* Meet our team section style starts here */
+.team-title {
+    text-align: center;
+}
+
+.trainer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    margin-top: 58px;
+}
+
+.trainer {
+    padding: 20px;
+   /* background-blend-mode: overlay; */
+   position: relative;
+   
+}
+
+.trainer-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    filter: brightness(60%);
+    
+
+}
+.trainer-name{
+    position: absolute;
+    top: 72%;
+    left: 10%;
+}
+.name{
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.designation{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 2px;
+}
+
+/* BMI calculate section styles end here */
+
 
 
 
@@ -580,6 +627,30 @@ select, input[type="text"]{
     padding: 16px 80px;
 }
 /* responsive for BMI calculator section ends here */
+
+/* responsiveness for Meet our team */
+.hidden{
+    display: none;
+}
+.trainer-container > img{
+    height: auto;
+}
+.trainer-container{
+    margin-top: 35px;
+}
+.get-started-field{
+    margin-left: 20px;
+}
+.get-started-field2{
+    margin-left: 20px;
+}
+.club-description{
+    margin-right: 54px;
+    margin-left: 20px;
+
+}
+/* responsiveness ends here for Meet our team section */
+
 
 
 }
