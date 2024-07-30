@@ -14,6 +14,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 /* font families styles end here */
 
 /* shared styles */
@@ -52,6 +53,10 @@
 }
 
 /* navbar styles starts here */
+.linear-gradient {
+    background-image: linear-gradient(180deg, rgba(17,17,17,1) 0%,rgba(68,68,68,0.505) 50%,rgba(119,119,119,0) 100%);
+}
+
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -70,6 +75,7 @@
 
 .nav-container {
     border-radius: 39px;
+    margin-top: 70px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 
 }
@@ -77,6 +83,7 @@
 .nav-links {
     list-style: none;
     padding-left: 3px;
+
 }
 
 .nav-link {
@@ -184,6 +191,7 @@
     font-size: 0.9rem;
 
 }
+
 /* header section styles end here */
 /* change your habits styles starts here */
 .to-do-container {
@@ -219,6 +227,7 @@
     letter-spacing: 0.3px;
     text-align: center;
 }
+
 /* change your habits styles ends here */
 
 
@@ -242,7 +251,8 @@
     margin-bottom: 40px;
 
 }
-.run-section-title{
+
+.run-section-title {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 14px;
@@ -286,24 +296,31 @@
     border-radius: 18px;
 
 }
+
 /* run an extra mile easily section ends here */
 /* BMI calculator section style starts here */
 
-.title-and-desc{
+.title-and-desc {
     max-width: 671px;
     margin: 0 auto;
 }
-.bmi-section-description{
+
+.bmi-section-description {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.3px;
-    
+
 }
-table, th, td{
+
+table,
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
 }
-th, td {
+
+th,
+td {
     padding-top: 15px;
     padding-left: 18px;
     padding-bottom: 15px;
@@ -314,7 +331,8 @@ th, td {
     margin-top: 80px;
     background-color: #222222
 }
-.section-content{
+
+.section-content {
     display: flex;
     gap: 44px;
     max-width: 1060px;
@@ -322,44 +340,50 @@ th, td {
     padding-left: 20px;
     padding-right: 20px;
 }
-.table-name{
+
+.table-name {
     font-size: 1.75rem;
     font-weight: 900;
     margin-bottom: 50px;
 }
-.bmi-calculator-chart{
-    width: calc( 50% - 22px );
+
+.bmi-calculator-chart {
+    width: calc(50% - 22px);
 }
 
-.calculate-bmi{
-    width: calc( 50%-22px );
+.calculate-bmi {
+    width: calc(50%-22px);
     margin-left: 52px;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 35px;
     max-width: 100%;
 }
-select, input[type="text"]{
+
+select,
+input[type="text"] {
     width: 100%;
     box-sizing: border-box;
 }
 
-.form-field{
+.form-field {
     width: 48%;
     margin-top: 10px;
 }
-    
 
-.form-field-activity-factor{
+
+.form-field-activity-factor {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 34px;
 }
-.form-container input, select{
+
+.form-container input,
+select {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     border: none;
@@ -369,9 +393,11 @@ select, input[type="text"]{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.form-btn{
+
+.form-btn {
     padding: 16px 70px;
 }
+
 /* BMI calculate section styles end here */
 
 /* Meet our team section style starts here */
@@ -389,9 +415,9 @@ select, input[type="text"]{
 
 .trainer {
     padding: 20px;
-   /* background-blend-mode: overlay; */
-   position: relative;
-   
+    /* background-blend-mode: overlay; */
+    position: relative;
+
 }
 
 .trainer-img {
@@ -400,20 +426,23 @@ select, input[type="text"]{
     object-fit: cover;
     border-radius: 18px;
     filter: brightness(60%);
-    
+
 
 }
-.trainer-name{
+
+.trainer-name {
     position: absolute;
     top: 72%;
     left: 10%;
 }
-.name{
+
+.name {
     font-size: 1.25rem;
     font-weight: 900;
     margin-bottom: 0px;
 }
-.designation{
+
+.designation {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 2px;
@@ -422,54 +451,64 @@ select, input[type="text"]{
 /* BMI calculate section styles end here */
 
 /* our blog section style starts here */
-.our-blog{
+.our-blog {
     margin-top: 50px;
 }
-.section-heading{
+
+.section-heading {
     text-align: center;
 }
-.blog-name{
+
+.blog-name {
     color: #E6533C;
     font-size: 1.6rem;
 
 }
-.title-blog-post{
+
+.title-blog-post {
     font-size: 3rem;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 20px;
-    
+
 }
-.blog-container{
+
+.blog-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.blog-content{
+
+.blog-content {
     background-color: rgba(34, 34, 34, 1);
     display: flex;
     flex-direction: column;
 
 }
-.blog-cover{
+
+.blog-cover {
     overflow: hidden;
 }
-.blog-img{
+
+.blog-img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.4s;
 }
-.blog-img:hover{
-    
+
+.blog-img:hover {
+
     transform: scale(1.3);
     transform-origin: 50% 50%;
 }
-.blog-detail{
+
+.blog-detail {
     display: flex;
 }
-.publish-date{
+
+.publish-date {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     border-right: 1px solid white;
@@ -477,55 +516,65 @@ select, input[type="text"]{
     margin-right: 10px;
     margin-left: 10px;
 }
-.publish-month{
+
+.publish-month {
     font-weight: 700;
     color: #ffffff;
 }
-.blog-title{
+
+.blog-title {
     font-weight: 900;
     font-size: 1.8rem;
     letter-spacing: 0.6px;
     color: rgba(255, 255, 255, 0.7);
 
 }
+
 /* our blog section style ends here */
 
 /* footer style starts here */
-.footer{
+.footer {
     margin-top: 80px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.club-name{
+.club-name {
     font-size: 4.375rem;
     margin-bottom: 20px;
 }
-.club-description{
+
+.club-description {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
-    
+
 }
-.footer-content{
+
+.footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.get-started{
+
+.get-started {
     font-size: 2rem;
     font-weight: 800;
 }
-.get-started-menu{
+
+.get-started-menu {
     font-size: 1.4375rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
-.get-started-field{
+
+.get-started-field {
     margin-left: 102px;
 }
-.get-started-field2{
+
+.get-started-field2 {
     margin-left: 100px;
 }
-.copy-right{
+
+.copy-right {
     text-align: center;
     letter-spacing: 0.7px;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
@@ -552,9 +601,10 @@ select, input[type="text"]{
     }
 
     header {
-        background-color: #1e1e1e;
-        /* background-color: black; */
+        background-color: #121212;
+        /* background-color: #1e1e1e; */
     }
+
     footer {
         background-color: #1e1e1e;
         /* background-color: black; */
@@ -564,7 +614,7 @@ select, input[type="text"]{
 /* media query for small design */
 @media screen and (max-width : 576px) {
 
-/* responsive styles for header section */
+    /* responsive styles for header section */
     .navbar,
     .banner,
     .run-container,
@@ -636,154 +686,172 @@ select, input[type="text"]{
     #video-tutorial {
         font-size: 1.13rem;
     }
-/* responsive of header section end */
 
-/* responsiveness for change your habit section starts here */
-.section-change-your-habit {
-    max-width: 338px;
-    margin: 0 auto;
+    /* responsive of header section end */
 
-}
+    /* responsiveness for change your habit section starts here */
+    .section-change-your-habit {
+        max-width: 338px;
+        margin: 0 auto;
 
-.section-top {
-    margin-top: 0px;
-}
+    }
 
-.to-do-container,
-.trainer-container,
-.footer-content {
-    grid-template-columns: repeat(1, 1fr);
-}
+    .section-top {
+        margin-top: 0px;
+    }
 
-.section-title {
-    font-size: 2rem;
-}
+    .to-do-container,
+    .trainer-container,
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-.section-description {
-    font-size: 1rem;
-    letter-spacing: 0.5px;
-    text-align: center;
-}
+    .section-title {
+        font-size: 2rem;
+    }
 
-.habit-img {
-    margin-left: 55px;
-}
+    .section-description {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
 
-.img-description {
-    padding-left: 55px;
-    padding-right: 55px;
+    .habit-img {
+        margin-left: 55px;
+    }
 
-}
-/* responsiveness ends for change your habit section */
-/* responsiveness starts for run an extra mile easily section starts here */
-.section-run-extra-mile {
-    border-radius: 18px;
-    margin: 30px;
+    .img-description {
+        padding-left: 55px;
+        padding-right: 55px;
 
-}
+    }
 
-.run-container {
-    gap: 5px;
-}
+    /* responsiveness ends for change your habit section */
+    /* responsiveness starts for run an extra mile easily section starts here */
+    .section-run-extra-mile {
+        border-radius: 18px;
+        margin: 30px;
 
-.run-content {
-    width: 100%;
-    margin-left: 30px;
+    }
 
-}
-.run-section-title{
-    font-size: 2rem;
-}
+    .run-container {
+        gap: 5px;
+    }
 
-.run-section-description {
-    margin-right: 30px;
+    .run-content {
+        width: 100%;
+        margin-left: 30px;
 
-}
+    }
 
- .section-btn {
-    width: 80%;
-    margin: 0 auto;
-    /* width: 287px;
+    .run-section-title {
+        font-size: 2rem;
+    }
+
+    .run-section-description {
+        margin-right: 30px;
+
+    }
+
+    .section-btn {
+        width: 80%;
+        margin: 0 auto;
+        /* width: 287px;
     padding: 16px 103px; */
 
-} 
+    }
 
-.section-img {
-    width: 90%;
-    margin: 0 auto;
-}
+    .section-img {
+        width: 90%;
+        margin: 0 auto;
+    }
 
-.run-img {
-    height: 170px;
-    object-fit: none;
-    object-position: 70% 26%;
-    border-radius: 18px;
-    margin-bottom: 30px;
+    .run-img {
+        height: 170px;
+        object-fit: none;
+        object-position: 70% 26%;
+        border-radius: 18px;
+        margin-bottom: 30px;
 
-}
-/* responsiveness ends for run an extra mile easily section */
-/* responsive for BMI calculator section starts here */
-.title-and-desc{
-    max-width: 353px;
-    margin: 0 auto;
-}
-.bmi-calculator-chart{
-    width: 100%;
-    margin-left: 20px;
-}
-.calculate-bmi{
-    margin-left: 20px;
-}
-.form-btn{
-    padding: 16px 80px;
-}
-/* responsive for BMI calculator section ends here */
+    }
 
-/* responsiveness for Meet our team */
-.hidden{
-    display: none;
-}
-.trainer-container > img{
-    height: auto;
-}
-.trainer-container{
-    margin-top: 35px;
-}
-.get-started-field{
-    margin-left: 20px;
-}
-.get-started-field2{
-    margin-left: 20px;
-}
-.club-description{
-    margin-right: 54px;
-    margin-left: 20px;
+    /* responsiveness ends for run an extra mile easily section */
+    /* responsive for BMI calculator section starts here */
+    .title-and-desc {
+        max-width: 353px;
+        margin: 0 auto;
+    }
 
-}
-/* responsiveness ends here for Meet our team section */
+    .bmi-calculator-chart {
+        width: 100%;
+        margin-left: 20px;
+    }
 
-/* challenge section media query */
-.blog-container{
-    grid-template-columns: repeat(1,1fr);
-}
-.title-blog-post{
-    font-size: 2rem;
-}
-.blog-title{
-    font-size: 1.5rem;
-    padding-top: 15px;
+    .calculate-bmi {
+        margin-left: 20px;
+    }
 
-}
-/* our blog section responsiveness ends here */
-/* responsiveness for footer section */
+    .form-btn {
+        padding: 16px 80px;
+    }
 
-.club-name{
-    margin-left: 20px;
-}
-.copy-right{
-    text-align: left;
-    margin-left: 20px;
-}
+    /* responsive for BMI calculator section ends here */
+
+    /* responsiveness for Meet our team */
+    .hidden {
+        display: none;
+    }
+
+    .trainer-container>img {
+        height: auto;
+    }
+
+    .trainer-container {
+        margin-top: 35px;
+    }
+
+    .get-started-field {
+        margin-left: 20px;
+    }
+
+    .get-started-field2 {
+        margin-left: 20px;
+    }
+
+    .club-description {
+        margin-right: 54px;
+        margin-left: 20px;
+
+    }
+
+    /* responsiveness ends here for Meet our team section */
+
+    /* challenge section media query */
+    .blog-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .title-blog-post {
+        font-size: 2rem;
+    }
+
+    .blog-title {
+        font-size: 1.5rem;
+        padding-top: 15px;
+
+    }
+
+    /* our blog section responsiveness ends here */
+    /* responsiveness for footer section */
+
+    .club-name {
+        margin-left: 20px;
+    }
+
+    .copy-right {
+        text-align: left;
+        margin-left: 20px;
+    }
 
 
 
