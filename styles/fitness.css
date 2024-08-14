@@ -20,6 +20,8 @@
 .full-content{
     padding: 0px;
     margin: 0px;
+    background-color: black;
+    color: white;
 }
 
 /* shared styles */
@@ -611,39 +613,8 @@ select {
 
 
 
-
-
-
-
-
-
-
-
-/* media query for dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-        /* background-color: black; */
-        color: #ffffff;
-    }
-
-    header {
-        background-color: #121212;
-        /* background-color: #1e1e1e; */
-    }
-
-    footer {
-        background-color: #1e1e1e;
-        /* background-color: black; */
-    }
-}
-
 /* media query for small design */
 @media screen and (max-width : 576px) {
-    /* .full-content{
-        padding: 0px;
-        margin: 0px;
-    } */
 
     /* responsive styles for header section */
     .navbar,
